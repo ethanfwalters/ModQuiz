@@ -42,6 +42,8 @@ public class ModQuiz
 									numberWrong = numberWrong +1;
 								}
 								
+								i = i - 1;
+								
 								}
 							break;
 						case 2:
@@ -68,6 +70,8 @@ public class ModQuiz
 										System.out.println("Youre wrong!");
 										numberWrong = numberWrong +1;
 									}
+
+									i = i - 1;
 									
 									}
 							}
